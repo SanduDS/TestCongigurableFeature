@@ -3,5 +3,5 @@
 
 // @test:Config {enable: true}
 // function testFuction() {
-//     var result = tttt();
+//     var result = testFunction();
 // }
