@@ -20,8 +20,6 @@ jobs:
                   args:
                       run target/bin/testConfigurable.jar
               env:
-                  hostName: ${{ secrets.HOSTNAME }}
-                  port: ${{ secrets.PORT }}
-                  enableRemote: ${{ secrets.ENABLEREMOTE }}
-                  maxPayload: ${{ secrets.MAXPAYLOAD }}
+                  BALCONFIGFILE: ${{ secrets.BALCONFIGFILE }}
+                  
               
