@@ -1,9 +1,8 @@
-
 import ballerina/io;
 
 // `configurable` variables can be initialized with the `?` expression.
 // A value must be supplied for such variables in a `configuration.toml` file.
-configurable string hostName = ?;
+configurable int hostName = ?;
 configurable int port = ?;
 
 // A `configurable` variable can be initialized with an expression that is not `?`.
